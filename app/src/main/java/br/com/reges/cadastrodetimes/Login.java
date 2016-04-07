@@ -52,7 +52,7 @@ public class Login extends AppCompatActivity {
 
         AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
         dlgAlert.setTitle(R.string.app_name);
-        //dlgAlert.setMessage(R.string.invalid);
+        dlgAlert.setMessage(R.string.invalid);
         dlgAlert.setNeutralButton("OK", null);
         dlgAlert.show();
 
